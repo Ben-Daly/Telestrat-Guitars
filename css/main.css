@@ -1,0 +1,46 @@
+#main {
+    width: 960px;
+    margin: 0 auto;
+}
+h1 {
+    font-family: Trebuchet MS;
+}
+body {
+    font-family: Trebuchet MS;
+}
+#primary-nav {
+    padding:0;
+    margin: 0;
+    list-style: none;
+    width:100%;
+}
+#primary-nav li {
+    list-style: none;
+    display: inline-block;
+    width:24%;
+    margin:0;
+    ;
+}
+#primary-nav li a {
+    padding: 15px 0;
+    margin:0;
+    background-color: #0f0f0f;
+    color: #fff;
+    text-decoration: none;
+    width:100%;
+    text-align: center;
+    display:block;
+    border-radius: 25px;
+}
+#primary-nav li:first-child a {
+    margin:0 ;
+}
+#primary-nav li a:hover {
+    background-color: #999999;
+    text-decoration: underline;
+}
+#imgOutline {
+    width: 960px;
+    margin: 0 auto;
+    text-align:center;
+}
