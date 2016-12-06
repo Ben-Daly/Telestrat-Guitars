@@ -1,11 +1,21 @@
 #main {
-    width: 960px;
+    width: 1240px;
     margin: 0 auto;
 }
 h1 {
     font-family: 'Poppins', sans-serif;;
 }
 body {
+    font-family: 'Poppins', sans-serif;;
+    background-image: "background.png";
+    background-repeat: repeat-y;
+}
+h3 {
+    font-family: 'Poppins', sans-serif;;
+    text-decoration: bold;
+    font-size: 11pt;
+}
+h4 {
     font-family: 'Poppins', sans-serif;;
 }
 #primary-nav {
@@ -51,4 +61,39 @@ body {
 }
 .footer {
     text-align: center
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#aboutImage {
+    width: 1240px;
+    margin: 0;
+    text-align: center;
+}
+.inline-list {
+    padding:0;
+    margin:0;
+}
+.inline-list li {
+    display: inline-block;
+    float:left;
+    list-style: none;
+    width:25%;
+    text-align: center;
+}
+@media only screen and (max-device-width : 768px)  {
+    .inline-list li, #primary-nav li {
+        width:100%;
+        margin-bottom: 20px;
+    }
+    #main {
+        width:90%;
+        margin:0 auto;
+    }
+
+}
+#guitarLook {
+    float: right;
 }
